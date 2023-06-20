@@ -1,0 +1,54 @@
+/* This is a partial blocks.css, you need to add more rules
+   to this file to complete the assignment.  Do not add any CSS
+   styling to the original index.htm / start.htm */
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Here is one of many  CSS rules you will need... */
+#link {
+    text-align: center;
+    top: -5px;
+}
+a:link, a:visited {
+    background-color: #006400;
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    background-color: hotpink;
+    color: white;
+    text-decoration: underline;
+}
+#one {
+    position: fixed;
+    border: 5px solid blue;
+    width: 25%;
+    bottom: 10px;
+    right: 10px;
+}
+
+#two {
+    position: fixed;
+    border: 5px solid green;
+    width: 25%;
+    right: 10px;
+    /*float: right;*/
+
+}
+
+#three {
+    position: fixed;
+    border: 5px solid orange;
+    width: 25%;
+    left: 10px;
+}
+
+#four {
+    position: fixed;
+    border: 5px solid yellow;
+    width: 25%;
+    bottom: 10px;
+    left: 10px;
+}
